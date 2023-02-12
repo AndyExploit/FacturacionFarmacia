@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturacionFarmacia.Entidades", "FacturacionFarmacia.Entidades\FacturacionFarmacia.Entidades.csproj", "{6A728F50-B78A-4B4A-BD2B-835871969535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturacionFarmacia.Logica", "FacturacionFarmacia.Logica\FacturacionFarmacia.Logica.csproj", "{DB783F4E-0FD8-4F63-8906-BC506C0069BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A728F50-B78A-4B4A-BD2B-835871969535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A728F50-B78A-4B4A-BD2B-835871969535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A728F50-B78A-4B4A-BD2B-835871969535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A728F50-B78A-4B4A-BD2B-835871969535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB783F4E-0FD8-4F63-8906-BC506C0069BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB783F4E-0FD8-4F63-8906-BC506C0069BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB783F4E-0FD8-4F63-8906-BC506C0069BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB783F4E-0FD8-4F63-8906-BC506C0069BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D76BB63-8E98-4AF1-BADE-9C2C51955CCD}
+	EndGlobalSection
+EndGlobal
