@@ -11,6 +11,7 @@ namespace FacturacionFarmacia.Logica.Interfaces
     public interface IProducto
     {
         public GenericResponse<List<Producto>> ObtenerProductos();
+        public GenericResponse<Producto> ObtenerUnProducto(int ID);
         public GenericResponse<int> CrearProducto(Producto pProducto);
         public GenericResponse<int> EditarProducto(Producto pProducto);
         public GenericResponse<int> EliminarProducto(int ID);

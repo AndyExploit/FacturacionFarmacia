@@ -48,6 +48,37 @@ namespace FacturacionFarmacia.Logica
 
         }
 
+        public GenericResponse<Producto> ObtenerUnProducto(int pID) 
+        {
+            try
+            {
+                var connection = new SqlConnection(conexiondb);
+
+                var dtoGenericResponse = new GenericResponse<Producto>();
+
+                connection.Open();
+                var query = $"SELECT * FROM dbo.[producto] WHERE ID = @ID";
+                var producto_Data = connection.Query<Producto>(query, new {ID = pID}).FirstOrDefault();
+                connection.Close();
+
+                dtoGenericResponse.Data = producto_Data;
+                dtoGenericResponse.Success = true;
+                dtoGenericResponse.Message = "Transaccion Exitosa";
+
+                return dtoGenericResponse;
+            }
+            catch (Exception e)
+            {
+                var dtoGenericResponse = new GenericResponse<Producto>();
+
+                dtoGenericResponse.Data = null;
+                dtoGenericResponse.Success = false;
+                dtoGenericResponse.Message = "Ocurrio un Error" + e.Message;
+
+                return dtoGenericResponse;
+            }
+        }
+
         public GenericResponse<int> CrearProducto(Producto pProducto)
         {
             try

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uVmKp944+7OV8J8ppZW/mlrbh4c0uxmBo7cWZuwDYgQ=",
+  "Source": "FacturacionFarmacia.WebApi",
+  "BasePath": "_content/FacturacionFarmacia.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\bin\Debug\net6.0\FacturacionFarmacia.Entidades.deps.json
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\bin\Debug\net6.0\FacturacionFarmacia.Entidades.dll
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\bin\Debug\net6.0\FacturacionFarmacia.Entidades.pdb
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.csproj.AssemblyReference.cache
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.AssemblyInfoInputs.cache
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.AssemblyInfo.cs
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.csproj.CoreCompileInputs.cache
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.dll
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\refint\FacturacionFarmacia.Entidades.dll
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\FacturacionFarmacia.Entidades.pdb
+C:\PROYECTOS\NETCORE\FacturacionFarmacia\FacturacionFarmacia.Entidades\obj\Debug\net6.0\ref\FacturacionFarmacia.Entidades.dll
