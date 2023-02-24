@@ -10,7 +10,7 @@ namespace FacturacionFarmacia.Entidades
     {
         public int ID { get; set; }
         public int IDFactura { get; set; }
-        public int IdCliente { get; set; }
         public int IdProducto { get; set; }
+        public int Cantidad { get; set; }
     }
 }
