@@ -39,7 +39,7 @@ GO
 
 --Crear la tabla Producto
 CREATE TABLE [dbo].[Producto](
-[Id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+[ID] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
 [IdTipo] [int] NOT NULL,
 [Nombre] [varchar](50) NOT NULL,
 [Precio] [decimal](12,2) NOT NULL,
@@ -61,17 +61,18 @@ GO
 --Crear la tabla Factura
 CREATE TABLE [dbo].[Factura](
 [ID] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+[IdCliente] [int] NOT NULL,
+[EstadoInventario] [TinyInt] NOT NULL,
 [FechaRegistro] [DateTime] NOT NULL
 )
 
 --Crear la tabla DetalleFactura
 CREATE TABLE [dbo].[DetalleFactura](
-[Id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+[ID] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
 [IDFactura] [int] NOT NULL,
-[IdCliente] [int] NOT NULL,
-[IdProducto] [int] NOT NULL
+[IdProducto] [int] NOT NULL,
+[cantidad] [int]
 CONSTRAINT FK1_Factura_DetalleFactura FOREIGN KEY (IDFactura) REFERENCES Factura (ID),
-CONSTRAINT FK2_Cliente_DetalleFactura FOREIGN KEY (IdCliente) REFERENCES Cliente (Id),
-CONSTRAINT FK3_Producto_DetalleFactura FOREIGN KEY (IdProducto) REFERENCES Producto (ID)
+CONSTRAINT FK2_Producto_DetalleFactura FOREIGN KEY (IdProducto) REFERENCES Producto (ID)
 )
 GO

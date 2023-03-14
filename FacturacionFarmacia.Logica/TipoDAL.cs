@@ -126,7 +126,7 @@ namespace FacturacionFarmacia.Logica
 
                 //Insert
                 connection.Open();
-                var query = $"UPDATE dbo.[Cliente] SET Nombre = @Nombre WHERE Id = @Id;";
+                var query = $"UPDATE dbo.[Tipo] SET Nombre = @Nombre WHERE Id = @Id;";
                 var tipo_Data = connection.Execute(query, new
                 {
                     Nombre = pTipo.Nombre,

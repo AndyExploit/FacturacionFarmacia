@@ -8,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 //Inyeccion de independencias
 builder.Services.AddTransient<IProducto, ProductoDAL>();
 builder.Services.AddTransient<ICliente, CLienteDAL>();
+builder.Services.AddTransient<IFactura, FacturaDAL>();
+builder.Services.AddTransient<ITipo, TipoDAL>();
+builder.Services.AddTransient<IDetalleFactura, DetalleFacturaDAL>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
